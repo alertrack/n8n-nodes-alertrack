@@ -1,0 +1,32 @@
+{
+	"name": "sentimentAnalysisApi",
+	"displayName": "Sentiment Analysis API",
+	"group": ["transform"],
+	"version": 1,
+	"description": "Analyze sentiment of text using the Sentiment Analysis API",
+	"icon": "file:sentiment.svg",
+	"defaults": {
+		"name": "Sentiment Analysis API"
+	},
+	"inputs": ["main"],
+	"outputs": ["main", "main", "main"],
+	"properties": [
+		{
+			"displayName": "Text to Analyze",
+			"name": "text",
+			"type": "string",
+			"default": "",
+			"placeholder": "Enter the text to analyze",
+			"required": true
+		},
+		{
+			"displayName": "Language",
+			"name": "language",
+			"type": "string",
+			"default": "pt_br",
+			"placeholder": "e.g. en, pt_br",
+			"description": "The language of the text to analyze.",
+			"required": true
+		}
+	]
+}

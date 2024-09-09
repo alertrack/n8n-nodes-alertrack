@@ -1,0 +1,47 @@
+{
+	"name": "Alertrack",
+	"type": "n8n-nodes-base.customNode",
+	"version": 1,
+	"description": "Interact with the Alertrack API",
+	"defaults": {
+		"name": "Alertrack",
+		"color": "#1A82E2"
+	},
+	"inputs": [
+		"main"
+	],
+	"outputs": [
+		"main"
+	],
+	"properties": [
+		{
+			"displayName": "Operation",
+			"name": "operation",
+			"type": "options",
+			"default": "login",
+			"options": [
+				{
+					"name": "Login",
+					"value": "login"
+				}
+			]
+		},
+		{
+			"displayName": "Scopes",
+			"name": "scopes",
+			"type": "multiOptions",
+			"default": [],
+			"options": [
+				{
+					"name": "Send",
+					"value": "send"
+				},
+				{
+					"name": "Contact",
+					"value": "contact"
+				}
+			],
+			"required": true
+		}
+	]
+}

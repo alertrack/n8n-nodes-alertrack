@@ -1,0 +1,20 @@
+{
+	"node": "n8n-nodes-base.TranslatorNode",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Transform"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://api.translator.com/docs/authentication"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://api.translator.com/docs"
+			}
+		]
+	}
+}

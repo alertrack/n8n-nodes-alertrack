@@ -1,0 +1,26 @@
+{
+	"name": "PersonalityAnalysis",
+	"type": "n8n-nodes-base.customNode",
+	"version": 1,
+	"description": "Analyze text and predict Myers-Briggs personality type",
+	"defaults": {
+		"name": "Personality Analysis",
+		"color": "#FFCC00"
+	},
+	"inputs": [
+		"main"
+	],
+	"outputs": [
+		"main"
+	],
+	"properties": [
+		{
+			"displayName": "Text to Analyze",
+			"name": "text",
+			"type": "string",
+			"default": "",
+			"placeholder": "Enter the text to analyze",
+			"required": true
+		}
+	]
+}
