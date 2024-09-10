@@ -1,0 +1,20 @@
+{
+	"node": "n8n-nodes-base.ShortenerApi",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Transform"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://link.clientes.online/docs"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://link.clientes.online/developers"
+			}
+		]
+	}
+}

@@ -18,13 +18,15 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/AlertrackApi.credentials.js"
+			"dist/credentials/AlertrackApi.credentials.js",
+			"dist/credentials/ShortenerApi.credentials.js"
 		],
 		"nodes": [
 			"dist/nodes/TranslatorApi/TranslatorApi.node.js",
 			"dist/nodes/SentimentAnalysis/SentimentAnalysis.node.js",
 			"dist/nodes/PersonalityAnalysis/PersonalityAnalysis.node.js",
-			"dist/nodes/Alertrack/Alertrack.node.js"
+			"dist/nodes/Alertrack/Alertrack.node.js",
+			"dist/nodes/ShortenerApi/ShortenerApi.node.js"
 		]
 	},
 	"engines": {
