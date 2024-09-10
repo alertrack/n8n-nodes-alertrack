@@ -4,7 +4,7 @@
 
 Este repositório abriga as APIs completas para os serviços da Alertrack e Clientes Online.
 
-## Prerequisites
+## Pré Requisitos
 
 Você precisa do seguinte instalado em sua máquina de desenvolvimento:
 
@@ -12,7 +12,7 @@ Você precisa do seguinte instalado em sua máquina de desenvolvimento:
 * Node.js >=18.0 e npm
 * Instalar n8n com:
   ```
-  npm install  -g n8n
+  npm install -g n8n
   ```
 
 ## Instalando modulo localmente
