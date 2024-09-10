@@ -46,6 +46,7 @@ export class ShortenerApi implements INodeType {
 				displayName: 'Password',
 				name: 'password',
 				type: 'string',
+				typeOptions: { password: true },
 				default: '',
 				placeholder: 'Password protect the link (optional)',
 			},
