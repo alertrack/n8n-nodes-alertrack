@@ -12,12 +12,12 @@ import { profileAction } from './actions/GetContactProfile';
 
 export class Alertrack implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Alertrack',
+		displayName: 'CO - Alertrack',
 		name: 'alertrack',
 		icon: 'file:alertrack.svg',
 		group: ['transform'],
 		version: 1,
-		description: 'Interact with the Alertrack API',
+		description: 'Interaja com a API da Clientes Online',
 		defaults: {
 			name: 'Alertrack',
 		},
@@ -83,7 +83,7 @@ export class Alertrack implements INodeType {
                     { name: 'Write - Permissão De Escrita', value: 'write' },
                 ],
 				default: [],
-				description: 'The scopes to include in the login request',
+				description: 'Os scopes a incluir na requisição de login',
 			},
 			// Propriedades específicas para outras operações podem ser adicionadas aqui
 			{

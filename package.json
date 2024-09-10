@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-alertrack",
-	"version": "0.1.5",
+	"version": "0.1.7",
 	"description": "N8N Api's from Alertrack & Clientes Online.",
 	"keywords": [
 		"n8n-community-node-package"
@@ -18,13 +18,15 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/AlertrackApi.credentials.js"
+			"dist/credentials/AlertrackApi.credentials.js",
+			"dist/credentials/ShortenerApi.credentials.js"
 		],
 		"nodes": [
 			"dist/nodes/TranslatorApi/TranslatorApi.node.js",
 			"dist/nodes/SentimentAnalysis/SentimentAnalysis.node.js",
 			"dist/nodes/PersonalityAnalysis/PersonalityAnalysis.node.js",
-			"dist/nodes/Alertrack/Alertrack.node.js"
+			"dist/nodes/Alertrack/Alertrack.node.js",
+			"dist/nodes/ShortenerApi/ShortenerApi.node.js"
 		]
 	},
 	"engines": {
@@ -45,15 +47,19 @@
 		"dist"
 	],
 	"devDependencies": {
-		"@typescript-eslint/parser": "^7.15.0",
-		"eslint": "^8.56.0",
+		"@typescript-eslint/parser": "^8.5.0",
+		"eslint": "^8.45.0",
 		"eslint-plugin-n8n-nodes-base": "^1.16.1",
 		"gulp": "^4.0.2",
 		"n8n-workflow": "*",
-		"prettier": "^3.3.2",
-		"typescript": "^5.5.3"
+		"prettier": "^3.3.2"
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^8.5.0",
+		"pnpm": "^9.10.0",
+		"typescript": "5.4"
 	}
 }

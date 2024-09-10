@@ -6,7 +6,7 @@ echo "Navigating to nodes/Alertrack directory..."
 cd nodes/Alertrack || { echo "Directory nodes/Alertrack not found!"; exit 1; }
 
 echo "Installing dependencies..."
-npm i
+npm i --force
 
 echo "Building the project..."
 npm run build

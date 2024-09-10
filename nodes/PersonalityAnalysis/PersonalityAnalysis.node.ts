@@ -8,24 +8,24 @@ import {
 
 export class PersonalityAnalysis implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Personality Analysis',
+		displayName: 'CO - Análise de Personalidade',
 		name: 'personalityAnalysis',
 		icon: 'file:personality.svg',
-		group: ['transform'],
+		group: ['transformar'],
 		version: 1,
-		description: 'Analyze text and predict Myers-Briggs personality type',
+		description: 'Analise o texto e preveja o tipo de personalidade Myers-Briggs',
 		defaults: {
-			name: 'Personality Analysis',
+			name: 'Análise de Personalidade',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
 		properties: [
 			{
-				displayName: 'Text to Analyze',
+				displayName: 'Texto Para Analisar',
 				name: 'text',
 				type: 'string',
 				default: '',
-				placeholder: 'Enter the text to analyze',
+				placeholder: 'Digite o texto para analisar',
 				required: true,
 			},
 		],
